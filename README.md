@@ -178,7 +178,90 @@ A comprehensive Flutter-based school management system that provides different i
 -   Windows
 -   macOS
 
-## 📄 License
+## � Project Structure
+
+```
+lib/
+├── api/              # API service layer
+├── controller/       # Business logic and state management
+│   ├── auth_controller/
+│   ├── library_controller/
+│   ├── nurse_controller/
+│   └── student_controller/
+├── core/            # Core utilities and services
+│   ├── localization/
+│   ├── middleware/
+│   ├── services/
+│   └── utils/
+├── models/          # Data models
+│   ├── global/
+│   ├── librarian_model/
+│   ├── student_model/
+│   └── teacher_model/
+├── view/            # UI screens
+└── widgets/         # Reusable widgets
+```
+
+## 🔧 Environment Setup
+
+1. **Flutter SDK Setup**
+
+    ```bash
+    flutter channel stable
+    flutter upgrade
+    flutter doctor
+    ```
+
+2. **Environment Variables**
+   Create a `.env` file in the root directory:
+
+    ```env
+    API_BASE_URL=your_api_url
+    FIREBASE_PROJECT_ID=your_project_id
+    ```
+
+3. **Firebase Setup**
+    - Add `google-services.json` for Android
+    - Add `GoogleService-Info.plist` for iOS
+
+## 📝 Changelog
+
+### Version 1.0.0 (Current)
+
+-   Multi-role user system implementation
+-   Library management features
+-   Event management system
+-   Complaint handling system
+-   Multilingual support (Arabic/English)
+
+### Planned Features
+
+-   [ ] Push notification system
+-   [ ] Advanced reporting system
+-   [ ] Parent portal
+-   [ ] Online assessment module
+
+## ❓ Troubleshooting
+
+### Common Issues
+
+1. **Build Failures**
+
+    ```bash
+    flutter clean
+    flutter pub get
+    ```
+
+2. **Firebase Integration**
+
+    - Ensure Firebase configuration files are properly placed
+    - Check Firebase dependencies in pubspec.yaml
+
+3. **Localization Issues**
+    - Verify language files in assets/locales
+    - Check locale settings in main.dart
+
+## �📄 License
 
 This project is licensed under the MIT License, which allows you to:
 
