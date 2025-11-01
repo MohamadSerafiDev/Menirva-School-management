@@ -50,28 +50,116 @@ A comprehensive Flutter-based school management system that provides different i
 -   File sharing capabilities
 -   Profile management
 
-## 📱 User Interface
+## 📱 Screenshots
 
-### Student Role
+### Student Interface
 
-| Feature    | Description                                 | Screenshot                                                                                                                           |
-| ---------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Home Page  | Dashboard with quick access to all features | [English](screenshots/student/student%20home%20page%20english.png), [Arabic](screenshots/student/student%20home%20page%20arabic.png) |
-| Profile    | Student profile management                  | [View](screenshots/student/student%20profile.png)                                                                                    |
-| Schedule   | Weekly class schedule                       | [View](screenshots/student/student-weekly%20schedule.png)                                                                            |
-| Books      | Browse and borrow library books             | [Browse](screenshots/student/student-books%20page.png), [Borrow](screenshots/student/student-borrow%20book.png)                      |
-| Events     | View and interact with school events        | [List](screenshots/student/student-events.png), [Comments](screenshots/student/student-event%20commant.png)                          |
-| Complaints | Submit and track complaints                 | [New](screenshots/student/student%20complain.png), [Previous](screenshots/student/student%20pre%20complaint.png)                     |
+#### Home & Profile
 
-### Librarian Role
+<table>
+  <tr>
+    <td><strong>English Home</strong></td>
+    <td><strong>Arabic Home</strong></td>
+    <td><strong>Profile</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/student/student home page english.png" width="250" alt="Home English"/></td>
+    <td><img src="screenshots/student/student home page arabic.png" width="250" alt="Home Arabic"/></td>
+    <td><img src="screenshots/student/student profile.png" width="250" alt="Student Profile"/></td>
+  </tr>
+</table>
 
-| Feature    | Description                           | Screenshot                                                                                                                                                                                            |
-| ---------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Home       | Main dashboard for library management | [View](screenshots/librarian/librarian-main%20home.png)                                                                                                                                               |
-| Books      | Manage book inventory                 | [List](screenshots/librarian/librarian-books.png), [Details](screenshots/librarian/librarian-book%20details.png)                                                                                      |
-| Add Books  | Add new books to library              | [Empty](screenshots/librarian/librarian%20-add%20book.png), [Filled](screenshots/librarian/librarian-add%20book%20filled.png)                                                                         |
-| Borrows    | Manage book borrowing requests        | [Pending](screenshots/librarian/librarian-pending%20borrows.png), [Accepted](screenshots/librarian/librarian-accepted%20borrows.png), [Rejected](screenshots/student/libraian-rejected%20borrows.png) |
-| Complaints | Handle library-related complaints     | [View](screenshots/librarian/librarian-complaint.png), [Edit](screenshots/librarian/librarian-edit%20complaint.png), [Save](screenshots/librarian/librarian-save%20complaint.png)                     |
+#### Academic & Events
+
+<table>
+  <tr>
+    <td><strong>Weekly Schedule</strong></td>
+    <td><strong>Events List</strong></td>
+    <td><strong>Event Comments</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/student/student-weekly schedule.png" width="250" alt="Weekly Schedule"/></td>
+    <td><img src="screenshots/student/student-events.png" width="250" alt="Events"/></td>
+    <td><img src="screenshots/student/student-event commant.png" width="250" alt="Event Comments"/></td>
+  </tr>
+</table>
+
+#### Library & Complaints
+
+<table>
+  <tr>
+    <td><strong>Browse Books</strong></td>
+    <td><strong>Borrow Book</strong></td>
+    <td><strong>New Complaint</strong></td>
+    <td><strong>Previous Complaints</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/student/student-books page.png" width="200" alt="Books Page"/></td>
+    <td><img src="screenshots/student/student-borrow book.png" width="200" alt="Borrow Book"/></td>
+    <td><img src="screenshots/student/student complain.png" width="200" alt="New Complaint"/></td>
+    <td><img src="screenshots/student/student pre complaint.png" width="200" alt="Previous Complaints"/></td>
+  </tr>
+</table>
+
+### Librarian Interface
+
+#### Home & Book Management
+
+<table>
+  <tr>
+    <td><strong>Dashboard</strong></td>
+    <td><strong>Books List</strong></td>
+    <td><strong>Book Details</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/librarian/librarian-main home.png" width="250" alt="Librarian Dashboard"/></td>
+    <td><img src="screenshots/librarian/librarian-books.png" width="250" alt="Books List"/></td>
+    <td><img src="screenshots/librarian/librarian-book details.png" width="250" alt="Book Details"/></td>
+  </tr>
+</table>
+
+#### Add New Books
+
+<table>
+  <tr>
+    <td><strong>Empty Form</strong></td>
+    <td><strong>Filled Form</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/librarian/librarian -add book.png" width="300" alt="Add Book Empty"/></td>
+    <td><img src="screenshots/librarian/librarian-add book filled.png" width="300" alt="Add Book Filled"/></td>
+  </tr>
+</table>
+
+#### Borrow Requests Management
+
+<table>
+  <tr>
+    <td><strong>Pending Requests</strong></td>
+    <td><strong>Accepted Requests</strong></td>
+    <td><strong>Rejected Requests</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/librarian/librarian-pending borrows.png" width="250" alt="Pending Borrows"/></td>
+    <td><img src="screenshots/librarian/librarian-accepted borrows.png" width="250" alt="Accepted Borrows"/></td>
+    <td><img src="screenshots/student/libraian-rejected borrows.png" width="250" alt="Rejected Borrows"/></td>
+  </tr>
+</table>
+
+#### Complaints Management
+
+<table>
+  <tr>
+    <td><strong>View Complaint</strong></td>
+    <td><strong>Edit Complaint</strong></td>
+    <td><strong>Save Complaint</strong></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/librarian/librarian-complaint.png" width="250" alt="View Complaint"/></td>
+    <td><img src="screenshots/librarian/librarian-edit complaint.png" width="250" alt="Edit Complaint"/></td>
+    <td><img src="screenshots/librarian/librarian-save complaint.png" width="250" alt="Save Complaint"/></td>
+  </tr>
+</table>
 
 ## 🛠 Setup & Installation
 
