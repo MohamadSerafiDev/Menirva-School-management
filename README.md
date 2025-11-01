@@ -178,26 +178,26 @@ A comprehensive Flutter-based school management system that provides different i
 -   Windows
 -   macOS
 
-## � Project Structure
+## 📁 Project Structure
 
 ```
 lib/
-├── api/              # API service layer
-├── controller/       # Business logic and state management
-│   ├── auth_controller/
-│   ├── library_controller/
-│   ├── nurse_controller/
-│   └── student_controller/
-├── core/            # Core utilities and services
-│   ├── localization/
-│   ├── middleware/
-│   ├── services/
-│   └── utils/
-├── models/          # Data models
-│   ├── global/
-│   ├── librarian_model/
-│   ├── student_model/
-│   └── teacher_model/
+├── 🌐 api/              # API service layer
+├── 🎮 controller/       # Business logic and state management
+│   ├── 🔐 auth_controller/
+│   ├── 📚 library_controller/
+│   ├── 👩‍⚕️ nurse_controller/
+│   └── 👨‍🎓 student_controller/
+├── ⚙️ core/            # Core utilities and services
+│   ├── 🌍 localization/
+│   ├── 🛡️ middleware/
+│   ├── 🔧 services/
+│   └── 🛠️ utils/
+├── 📊 models/          # Data models
+│   ├── 🌐 global/
+│   ├── 📚 librarian_model/
+│   ├── 👨‍🎓 student_model/
+│   └── 👨‍🏫 teacher_model/
 ├── view/            # UI screens
 └── widgets/         # Reusable widgets
 ```
