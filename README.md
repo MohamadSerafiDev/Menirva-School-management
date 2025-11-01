@@ -92,4 +92,13 @@ A comprehensive Flutter-based school management system that provides different i
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License, which allows you to:
+
+-   ✔️ Use the software for commercial purposes
+-   ✔️ Modify the source code
+-   ✔️ Distribute the software
+-   ✔️ Use and modify the software privately
+
+The only requirement is to include the original copyright notice and license in any copy of the software/source.
+
+See the [LICENSE](LICENSE) file for the full license text.
